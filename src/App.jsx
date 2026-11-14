@@ -73,8 +73,7 @@ function App() {
   </div>
 </div>
       <div id="home" style={{ maxWidth: '900px', margin: '0 auto', padding: '40px 18px 50px', textAlign: 'center' }}>
-        <img src="/maks.jpg" alt="Maqsud" style={{ width: '140px', height: '140px', borderRadius: '50%', objectFit: 'cover', border: '3px solid #00e5ff', boxShadow: '0 0 40px rgba(0,229,255,0.4)' }} />
-        <h1 style={{ fontSize: 'clamp(36px, 9vw, 58px)', margin: '16px 0 5px', lineHeight: '1.1', fontWeight: '900', letterSpacing: '-1px' }}>Kalonov <span style={{ background: 'linear-gradient(90deg,#00e5ff,#a855f7)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Maqsud</span></h1>
+      <img src={import.meta.env.BASE_URL + "maks.jpg"} alt="Maqsud" style={{ width: '140px', height: '140px', borderRadius: '50%', objectFit: 'cover', border: '3px solid #00e5ff', boxShadow: '0 0 40px rgba(0,229,255,0.4)' }} />  <h1 style={{ fontSize: 'clamp(36px, 9vw, 58px)', margin: '16px 0 5px', lineHeight: '1.1', fontWeight: '900', letterSpacing: '-1px' }}>Kalonov <span style={{ background: 'linear-gradient(90deg,#00e5ff,#a855f7)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Maqsud</span></h1>
         <p style={{ fontSize: 'clamp(16px, 4vw, 22px)', color: '#94a3b8', margin: '5px 0', fontWeight: '600' }}>{t.job}</p>
         <p style={{ maxWidth: '600px', margin: '15px auto', lineHeight: '1.7', color: '#cbd5e1', fontSize: '15px' }}>{t.desc}</p>
         <div style={{ display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap', marginTop: '24px' }}>
